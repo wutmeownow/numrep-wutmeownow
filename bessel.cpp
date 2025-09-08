@@ -40,7 +40,7 @@ double up (double x, int l) {
   double j0=sin(x)/x;
   if (l==0) return j0;
   double j1=(j0-cos(x))/x;
-    if (l==1) return j1;
+  if (l==1) return j1;
   // else use recusion relation
   l--;
   return (2*l+1)/x * up(x,l) - up(x,l-1);
