@@ -67,9 +67,8 @@ for i in range(3):
     axs[i,1].set_xlabel("h")
 
 fig.tight_layout()
-plt.show()
-# plt.savefig("plot.pdf")
-# plt.savefig("plot.png")
+# plt.show()
+plt.savefig("cos.png")
 
 # make figure
 fig, axs = plt.subplots(3, 2)
@@ -112,6 +111,7 @@ for i in range(3):
     axs[i,1].set_xlabel("h")
 
 fig.tight_layout()
-plt.show()
+# plt.show()
+plt.savefig("exp.png")
 
 
